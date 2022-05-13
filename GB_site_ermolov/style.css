@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+.top_container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header_container {
+    background: #000;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    min-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_left {
+    display: flex;
+    width: 111px;
+    left: 0;
+}
+
+.logo_button {
+    margin-top: 18px;
+    margin-bottom: 19px;
+}
+
+.search_button {
+    margin: 26px 0px 19px 41px;
+}
+
+.flex_rigth {
+    display: flex;
+    justify-content: space-between;
+    width: 168px;
+}
+
+.menu_button {
+    margin-top: 30px;
+    margin-bottom: 22px;
+}
+
+.registration_button {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.basket_button {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.banner_container {
+    width: 100%;
+    background: #F1E4E6;
+    display: flex;
+    justify-content: center;
+}
+
+.banner_content {
+    width: 1140px;
+    display: flex;
+    height: 764px;
+    align-items: left;
+    justify-content: left;
+    justify-content: space-around;
+}
+
+.banner {
+    height: 764px;
+    display: flex;
+    position: left;
+}
+
+.banner_text {
+    margin-top: 290px;
+}
+
+.item_container {
+    padding-top: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.item_content {
+    width: 1140px;
+}
+
+.item_parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_bottom {
+    padding-top: 30px;
+}
+
+.item {
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.item_text {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.margin_item_text_left {
+    margin: 105px 103px;
+}
+
+.margin_item_text_center {
+    margin: 105px 125px;
+}
+
+.margin_item_text_rigth {
+    margin: 105px 122px;
+}
+
+.item_bottom {
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+
+.margin_item_text_bottom {
+    margin: 65px 490px;
+}
